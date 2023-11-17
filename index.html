@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Racing Club Registration</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <div class="container">
+    <h1>Racing Club Registration</h1>
+    <form id="registrationForm" onsubmit="validateForm(event)">
+      <label for="fullName">Full Name:</label>
+      <input type="text" id="fullName" name="fullName" required>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="matricNumber">Matriculation Number:</label>
+      <input type="text" id="matricNumber" name="matricNumber" pattern="[0-9]{10}" placeholder="e.g., 17cjxxxxxx" required>
+
+      <label for="carModel">Car Model:</label>
+      <input type="text" id="carModel" name="carModel" required>
+
+      <label for="hall">Hall:</label>
+      <select id="hall" name="hall" required>
+        <option value="" disabled selected>Hall of Residence</option>
+        <option value="Daniel">Daniel</option>
+        <option value="Peter">Peter</option>
+        <option value="Paul">Paul</option>
+        <option value="Joseph">Joseph</option>
+      </select>
+
+      <button type="submit">Register</button>
+    </form>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

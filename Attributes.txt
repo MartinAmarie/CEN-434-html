@@ -1,0 +1,47 @@
+
+
+Explanation of the attributes:
+
+1 Script Tag:
+type: Specifies the scripting language (e.g., "text/javascript").
+Example: <script type="text/javascript">...</script>
+
+2 Input Tag:
+type: Specifies the type of input (e.g., "text", "checkbox").
+placeholder: Defines a short hint that describes the expected value.
+name: Specifies the name of the input field.
+id: Specifies a unique id for the input field.
+required: Specifies that the input field must be filled out.
+Example: <input type="text" placeholder="Enter text" name="username" id="username" required>
+
+3 Video Tag:
+width and height: Specifies the dimensions of the video player.
+controls: Adds video controls (play, pause, volume, etc.).
+Example: <video width="400" height="300" controls><source src="example.mp4" type="video/mp4">Your browser does not support the video tag.</video>
+
+4Audio Tag:
+controls: Adds audio controls (play, pause, volume, etc.).
+Example: <audio controls><source src="example.mp3" type="audio/mp3">Your browser does not support the audio tag.</audio>
+
+5 A Tag:
+href: Specifies the URL of the linked resource.
+target: Specifies where to open the linked document (e.g., "_blank" for a new tab).
+title: Adds extra information about the link.
+Example: <a href="https://www.example.com" target="_blank" title="Visit Example">Visit Example</a>
+
+6 P Tag:
+style: Specifies inline styles (e.g., color, font-size).
+Example: <p style="color: blue; font-size: 16px;">This is a paragraph.</p>
+
+7 Br Tag:
+No specific attributes. It's used to break lines in a paragraph.
+
+8 H1 Tag:
+style: Specifies inline styles (e.g., color).
+Example: <h1 style="color: green;">Heading 1</h1>
+
+9 IMG Tag:
+src: Specifies the source URL of the image.
+alt: Specifies alternative text for the image.
+width and height: Specifies the dimensions of the image.
+Example: <img src="image.jpg" alt="Image Description" width="300" height="200">
